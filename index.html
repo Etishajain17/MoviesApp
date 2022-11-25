@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="head">SEARCH YOUR FAVOURITE MOVIES</div>
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder=" Search here..." name="search">
+                <button>Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOR THEME CHANGE-->
+    <form class="theme">
+        <fieldset class="colorchange">
+            <input type="radio" id="grey" name="theme" checked> 
+            <input type="radio" id="Pink" name="theme">
+            <input type="radio" id="Blue" name="theme">
+            <input type="radio" id="green" name="theme">
+            <input type="radio" id="black" name="theme">
+
+        </fieldset>
+    </form>
+
+    <!-- FOR API OUTPUT SECTION -->  
+    <div id="main">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
